@@ -1,3 +1,4 @@
+# This repo explains how all of the scripts work and how they are connected.
 
 ## Part 1 - Merge the training and the test sets to create one data set.
 ## Part 2 - Extract only the measurements on the mean and standard deviation for each measurement.
