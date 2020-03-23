@@ -34,7 +34,7 @@ Merge **meanStdData** with file *UCI HAR Dataset/activity_labels.txt* to add act
 
 ## Part 4 - Appropriately label the data set with descriptive variable names.
 
-*UCI HAR Dataset/features.txt* contains the lables for the dataset and is loaded in **Part 1** and is applied to the data set.
+*UCI HAR Dataset/features.txt* contains the lables for the dataset and is loaded and applied to the data set in **Part 1**.  
 
 ## Part 5 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
