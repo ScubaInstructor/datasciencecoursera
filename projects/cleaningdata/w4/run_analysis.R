@@ -16,7 +16,7 @@ trainData <- cbind(trainSubject, trainX, trainY)
 allData <- rbind(testData, trainData)
 
 ## Part 2
-meanStdData <- allData[, c("subjectId",names(allData %>% select(matches("mean\\.\\.\\.|std\\.\\."))),"activityId")]
+meanStdData <- allData[, c("subjectId",names(allData %>% select(matches("mean|std"))),"activityId")]
 
 ## Part 3
 activityMeanStdData <- merge(meanStdData, read.table("UCI HAR Dataset/activity_labels.txt", col.names = c("activityId", "activity")), "activityId")
