@@ -20,9 +20,9 @@ Load following files into one data set.
 *UCI HAR Dataset/train/X_train.txt*  
 *UCI HAR Dataset/train/y_train.txt*  
 
-Load **test** data set and combine it with features and test subject.
-Load **train** data set and combine it with features and train subject.
-Merge test and train data into **alldata** set.
+Load **x|y test** data set and combine it with **features** and **subject_test**.
+Load **x|y train** data set and combine it with **features** and **subject_train**.
+Merge **testData** and **trainData** into data set **alldata**.
 
 ## Part 2 - Extract only the measurements on the mean and standard deviation for each measurement.
 
@@ -38,4 +38,5 @@ Merge **meanStdData** with file *UCI HAR Dataset/activity_labels.txt* to add act
 
 ## Part 5 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-
+Aggregate **activityMeanStdData** mean on *activity* and *subjectId* into **tidyDataSet**.  
+Write **tidyData** to file. 
