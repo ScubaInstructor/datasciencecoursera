@@ -20,9 +20,9 @@ Load following files into one data set.
 *UCI HAR Dataset/train/X_train.txt*  
 *UCI HAR Dataset/train/y_train.txt*  
 
-Load **x|y test** data set and combine it with **features** and **subject_test**.
-Load **x|y train** data set and combine it with **features** and **subject_train**.
-Merge **testData** and **trainData** into data set **alldata**.
+Load **x|y test** data set and combine it with **features** and **subject_test**.  
+Load **x|y train** data set and combine it with **features** and **subject_train**.  
+Merge **testData** and **trainData** into data set **alldata**.  
 
 ## Part 2 - Extract only the measurements on the mean and standard deviation for each measurement.
 
